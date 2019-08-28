@@ -1,6 +1,6 @@
 # CouchbaseToDatastore
 
-Small app to move data from a Couchbase bucket into a Datastore project id in the default namespace.  This will search through a specified bucket and migrate the data based on the data types.  Mostly taken from https://github.com/GannettDigital/cb2ds
+Small app to move data from a Couchbase bucket into a Datastore project id in the default namespace.  This will search through a specified bucket and migrate the data based on the data types. 
 
 ### Usage
 

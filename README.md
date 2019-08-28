@@ -18,6 +18,14 @@ type RBACTeamAssets struct {
 
 * setup the Couchbase and Datastore info structs in the main.go.  You'll need a Couchbase address, bucket and password, along with Datastore credentials.  This one uses a local json file for authentication to Datastore by exporting the Datastore json file to an ENVIRONMENT. You get the json file from vault or your Google Project.
 
+| Name | Description | Default |
+| --- | --- | --- |
+| host: | The Couchbase address |
+| bucket: | The Couchbase Bucket name.  |
+| password: | The passsord for your Couchbase |
+| kind: | The Datastor Kind you are |
+| project: | Your Project name   |
+
 *export GOOGLE_APPLICATION_CREDENTIALS="PATH_TO_JSON"
 
 * execute `go run *.go`

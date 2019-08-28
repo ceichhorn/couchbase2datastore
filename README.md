@@ -20,11 +20,15 @@ type RBACTeamAssets struct {
 
 | Name | Description | Default |
 | --- | --- | --- |
-| host: | The Couchbase address |
-| bucket: | The Couchbase Bucket name.  |
-| password: | The passsord for your Couchbase |
-| kind: | The Datastor Kind you are |
-| project: | Your Project name   |
+| host: | The Couchbase address | localhost |
+| bucket: | The Couchbase Bucket name  | test |
+| password: | The password for your Couchbase | derp |
+| kind: | The Datastore Kind you are using | test123 |
+| project: | Your Project name   | test4321 |
+
+Datastore credentials:   This one uses a local json file for authentication to Datastore 
+by exporting the Datastore json file to an ENVIRONMENT variable. 
+You get the json file from vault or your Google Project.
 
 *export GOOGLE_APPLICATION_CREDENTIALS="PATH_TO_JSON"
 
